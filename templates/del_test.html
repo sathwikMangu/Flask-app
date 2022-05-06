@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <title>RDD</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/cssStyles/bootstrap.min.css">
+    <script src="../static/scripts/jquery.min.js"></script>
+    <script src="../static/scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../static/cssStyles/mystyles.css" />
+    <script src="../static/scripts/myjs.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 jumbotron">
+                <div class="col-sm-2">
+
+                </div>
+                <div class="col-sm-8">
+                    <img src="../static/images/logo-1.png" class="img-responsive center-block"
+                        style="width:80%; height: 130px;">
+                </div>
+                <div class="col-sm-2">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 style="text-align:center">Respiratory Disease Detection</h1>
+                <p style="text-align: center; font-size: larger;">Find the most probable respiratory diseases that you
+                    are prone to...</to>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4" style="text-align: center;">
+                <!-- <h3></h3> -->
+                <strong style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">
+                    Upload the recording of the respiration process...
+                </strong>
+                <form method="post" enctype="multipart/form-data">
+
+                    <hr>
+                    <div class="col-sm-6">
+                        <input type="file" name="audiofile" id="audiofile" accept=".wav">
+                    </div>
+                    <div class="col-sm-6">
+
+                        <input type="submit" value="Upload" class="btn-info form-control" style="width: 100px;"
+                            onclick="checkUpload();checkFileExtension();">
+                    </div>
+                    <div class="col-sm-12">
+                        <hr>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
