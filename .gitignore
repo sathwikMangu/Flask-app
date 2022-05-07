@@ -1,7 +1,8 @@
 Pipfile
 Pipfile.lock
-chroma.jpg
-heatmap.jpg
-input.wav
-mel.jpg
-mfccs.jpg
+static/chroma.jpg
+static/heatmap.jpg
+static/input.wav
+static/mel.jpg
+static/mfccs.jpg
+rough_del.py
