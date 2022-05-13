@@ -6,3 +6,5 @@ static/input.wav
 static/mel.jpg
 static/mfccs.jpg
 rough_del.py
+rough_del_test.py
+__pycache__
